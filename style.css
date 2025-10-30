@@ -1,0 +1,232 @@
+:root {
+    --backgroundrgba: rgb(146, 79, 79);
+    --text: red;
+    --font-family: arial;
+}
+
+
+
+
+
+body {
+    background-color: var(--backgroundrgba);
+    /* padding: 15px; */
+    margin: 8px;
+    margin-bottom: 10px;
+
+
+}
+
+
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 10px;
+    background-color: beige;
+    padding: 3%;;
+    font-family: 'Times New Roman', Times, serif;
+
+
+
+
+
+}
+
+
+
+nav li a {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-decoration: none;
+
+
+
+
+}
+
+nav a {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+
+}
+
+
+nav li {
+    padding: 1px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: red;
+    transition: 0, 5s;
+
+
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: beige;
+    
+
+
+}
+
+
+
+#bild1 {
+    display: flex; 
+    width: 100%;
+    justify-content: center;
+    margin-left: 40%;
+}
+
+#bild2 {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 36%;
+    align-items: center;
+    margin-top: 10%;
+}
+
+#bild3 {
+     display: flex; 
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 39%;
+}
+
+
+#galleri {
+    padding: 40px;
+     width: 60%; 
+    border-radius: 20px;
+}
+
+
+
+@media (max-width:480px) {
+    body {
+         font-size: 12px; 
+    }
+
+    img {
+        width: 100%;
+       
+    }
+
+     #Proj1 {
+        width: 100%;
+        margin-left: 40%;
+       
+    } 
+
+    #Projekt2 {
+        width: 80%;
+        margin-top: 20%; 
+        margin-left: 36%;
+    }
+
+    #Projkt3 {
+        width: 100%;
+        margin-left: 39%;
+        
+    }
+
+    nav ul {
+        display: block;
+        margin: 10px;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:768px) {
+    img {
+        width: 90%;
+    }
+
+    #Projekt2 {
+        width: 100%;
+        margin-top: 10%;
+        margin-right: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #Proj1 {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #Projekt3 {
+        width: 70%;
+        margin-top: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    nav ul {
+        display: block;
+        margin: 10px;
+        flex-direction: row;
+    }
+}
+
+@media (max-width:900px) {
+    img {
+        width: 90%;
+    }
+
+    #Projekt2 {
+        width: 90%;
+        margin-top: 10%;
+        margin-right: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #Proj1 {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #Projekt3 {
+        width: 55%;
+        margin-top: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+
+}
+
+
+footer {
+    background-color: rgba(66, 23, 23, 0.871);
+    color: beige;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
