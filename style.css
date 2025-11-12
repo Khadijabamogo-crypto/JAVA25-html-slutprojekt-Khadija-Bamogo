@@ -1,0 +1,256 @@
+:root {
+    --backgroundrgba: rgb(146, 79, 79);
+    --text: red;
+    --font-family: arial;
+}
+
+body {
+    background-color: var(--backgroundrgba);
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 10px;
+    background-color: beige;
+    padding: 3%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav li a {
+    padding: 5px 0;
+    text-decoration: none;
+}
+
+nav a {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+nav li {
+    padding: 1px;
+    cursor: pointer;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: red;
+    transition: 1s;
+}
+
+header,
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: beige;
+    padding: 10px;
+}
+
+
+.projekt1 img {
+    width: 80%;
+    border-radius: 2%;
+}
+
+
+.projekt2 img,
+.projekt3 img,
+.projekt4 img {
+    width: 70%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 2%;
+
+
+
+}
+
+
+.projekt1,
+.projekt2,
+.projekt3,
+.projekt4 {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-top: 10%;
+    margin-right: 10px;
+    gap: 20px;
+    transition: 1s;
+}
+
+
+
+@media(max-width: 450px) {
+    body {
+        font-size: 12px;
+        background-color: pink;
+        transition: 0, 5s;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .projekt1,
+    .projekt2,
+    .projekt3,
+    .projekt4 {
+        width: 100%;
+        transition: 1s;
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 10px;
+        gap: 10px;
+    }
+
+    nav ul {
+        display: block;
+        margin: 10px;
+        flex-direction: column;
+        transition: 1s;
+    }
+}
+
+@media (max-width:768px) {
+    body {
+        font-size: 20px;
+        background-color: pink;
+        transition: 1s;
+    }
+
+
+    img {
+        width: 100%;
+    }
+
+    .projekt1,
+    .projekt2,
+    .projekt3,
+    .projekt4 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        transition: 1s;
+        gap: 20px;
+    }
+
+    nav ul {
+        display: block;
+        margin: 10px;
+        flex-direction: column;
+        transition: 1s;
+    }
+
+}
+
+@media(max-width:768px) {
+    body {
+        font-size: 20px;
+        transition: 1s;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .projekt1,
+    .projekt2,
+    .projekt3,
+    .projekt4 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        transition: 1s;
+        gap: 20px;
+    }
+
+    nav ul {
+        display: block;
+        margin: 10px;
+        flex-direction: column;
+        transition: 1s;
+    }
+
+}
+
+
+@media(max-width:900px) {
+    body {
+        font-size: 20px;
+        transition: 1s;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .projekt1,
+    .projekt2,
+    .projekt3,
+    .projekt4 {
+        width: 80%;
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: left;
+        gap: 15px;
+        transition: 1s;
+    }
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+input {
+    padding: 20px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+}
+
+button {
+    background-color: beige;
+    color: black;
+    padding: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 30px;
+    border: none;
+}
+
+button:hover {
+    background-color: green;
+    border: 0;
+}
+
+#textarea {
+    padding: 40px;
+    resize: none;
+}
+
+footer {
+    background-color: rgba(66, 23, 23, 0.871);
+    color: beige;
+    text-align: center;
+    padding: 8px;
+    margin-top: 40px;
+}

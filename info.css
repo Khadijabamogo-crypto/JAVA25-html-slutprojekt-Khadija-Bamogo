@@ -1,0 +1,55 @@
+.bg-brown {
+    background-color: var(--backgroundrgba);
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    margin: auto 10%;
+    width: 90%;
+    text-align: center;
+}
+
+
+@media(max-width:450px) {
+
+    .bg-brown, 
+    header {
+        width: 100%;
+        margin: 10%;
+        text-align: center;
+        background-color: pink;
+    }
+    .fs-2{
+        background-color: beige;
+        padding:10px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .bg-brown,
+    header {
+        width: 95%;
+        margin: 15px;
+        padding: 8px;
+        background-color: pink;
+    }
+     .fs-2{
+        background-color: beige;
+        padding:10px;
+    }
+}
+
+@media(max-width: 900px) {
+
+    .bg-brown,
+    header {
+        width: 90%;
+        margin: 20px;
+        padding: 10px;
+
+    }
+}
